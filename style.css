@@ -39,6 +39,7 @@ main {
 .left-nav {
     color: blue;
     text-align: center;
+    border: solid 1 px gray;
 }
 
 table {
@@ -49,7 +50,9 @@ thead {
     color: black;
     background-color: lightgray;
 }
-
+ tbody {
+     border: solid;
+ }
 sup {
     color: goldenrod;
 }
@@ -105,15 +108,18 @@ h3 {
 .services {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    text-decoration: underline gray;
 }
 .disc-forums {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
+    text-decoration: underline grey;
 }
 
 .housing {
     display: grid;
     grid-template-columns: 1fr;
+    text-decoration: underline grey;
 }
 
 .for-sale {
@@ -123,7 +129,12 @@ h3 {
 
 .left-col {
     display: grid;
-    grid-template-rows: 4fr, 2fr, .5fr;
+    grid-template-columns: 1fr;
+}
+
+.jobs {
+    display: grid;
+    grid-template-columns: 1fr;
 }
 .gigs {
     display: grid;
