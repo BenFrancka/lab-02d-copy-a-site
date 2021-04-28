@@ -1,0 +1,83 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+    border: black 1px solid;
+}
+
+ul {
+    list-style: none;
+}
+body {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    width: 900px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 3fr .7fr;
+}
+
+.left-nav {
+    color: blue;
+    text-align: center;
+}
+
+thead {
+    color: black;
+    background-color: lightgray;
+}
+
+sup {
+    color: goldenrod;
+}
+.middle-main-column {
+    display: grid;
+    grid-template-rows: 45px 1fr;
+}
+
+.classifieds {
+    display: grid;
+    grid-template-columns: 1fr 1fr .6fr;
+}
+
+.top-nav {
+ text-align: center;
+ color: blue;   
+ background-color: lightgray;
+}
+.header-bar {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: whitesmoke;
+    border: none;
+}
+
+.portland-or {
+    font-size: 2rem;
+    color: black;
+    background-color: lightgray;
+    border: none;
+}
+
+
+
+.right-nav {
+    color: blue;
+    text-align: center;
+}
+.button {
+    border: black solid 1 px;
+    padding-bottom: 4px;
+    color: black;
+}
+    
+
+
