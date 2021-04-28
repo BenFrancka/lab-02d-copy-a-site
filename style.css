@@ -7,7 +7,6 @@ body, html {
 
 * {
     box-sizing: border-box;
-    border: black 1px solid;
 }
 
 ul {
@@ -16,6 +15,10 @@ ul {
 body {
     display: flex;
     justify-content: center;
+}
+
+h3 {
+    font-weight: bold;
 }
 
 main {
@@ -30,6 +33,9 @@ main {
     text-align: center;
 }
 
+table {
+    text-align: center;
+}
 thead {
     color: black;
     background-color: lightgray;
@@ -38,14 +44,16 @@ thead {
 sup {
     color: goldenrod;
 }
+
+h3 {
+    font-weight: bold;
+    padding: 0;
+}
+
 .middle-main-column {
     display: grid;
     grid-template-rows: 45px 1fr;
-}
-
-.classifieds {
-    display: grid;
-    grid-template-columns: 1fr 1fr .6fr;
+    color: blue;
 }
 
 .top-nav {
@@ -67,6 +75,40 @@ sup {
     border: none;
 }
 
+.classifieds {
+    display: grid;
+    grid-template-columns: 1fr 1fr .6fr;
+}
+
+.right-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.disc-forums {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.middle-col {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.housing {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.for-sale {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.left-col {
+    display: grid;
+    grid-template-rows: 4fr, 2fr, .5fr;
+}
 
 
 .right-nav {
