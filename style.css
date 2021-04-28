@@ -14,7 +14,7 @@ body {
 }
 main {
     width: 1000px;
-    height: 100%;
+    height: 821px;
     display: grid;
     grid-template-columns: 1fr 3fr .7fr;
     border: solid lightgray 1px;
