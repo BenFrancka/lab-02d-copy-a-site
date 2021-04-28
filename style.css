@@ -37,16 +37,22 @@ h3 {
     background: rgb(231, 230, 230);
 }
 
+.search-box {
+    color: black;
+    font-weight: normal;
+    background-color: whitesmoke;
+    border: solid gray 1px;
+}
+
 table {
     text-align: center;
-    
 }
 thead {
     color: black;
     background-color: lightgray;
 }
 tbody {
-     border: solid;
+     border: solid lightgray 1px;
  }
 sup {
     color: goldenrod;
@@ -143,18 +149,19 @@ h3 {
     text-decoration: underline;
 }
 
-
+.button {
+    color: black;
+    background-color:rgb(250, 246, 246);
+    border: solid black 1 px;
+    padding-bottom: 4px;   
+}
 .right-nav {
     color: blue;
     text-align: center;
     border: solid lightgray 1px;
     background: rgb(231, 230, 230);
 }
-.button {
-    border: black solid 1 px;
-    padding-bottom: 4px;
-    color: black;
-}
+
     
 
 
