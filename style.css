@@ -13,10 +13,11 @@ body {
     justify-content: center;
 }
 main {
-    width: 900px;
+    width: 1000px;
     height: 100%;
     display: grid;
     grid-template-columns: 1fr 3fr .7fr;
+    border: solid lightgray 1px;
 }
 
 ul {
@@ -39,7 +40,8 @@ main {
 .left-nav {
     color: blue;
     text-align: center;
-    border: solid 1 px gray;
+    border: solid lightgray 1px;
+    background: rgb(231, 230, 230);
 }
 
 table {
@@ -71,7 +73,8 @@ h3 {
 .top-nav {
  text-align: center;
  color: blue;   
- background-color: lightgray;
+ background-color: rgb(231, 230, 230);
+ border: solid lightgray 1px;
 }
 .header-bar {
     margin-left: auto;
@@ -95,36 +98,40 @@ h3 {
 }
 
 .add-title {
-    background: lightgray;
+    background: rgb(231, 230, 230);
     text-align: center;
+    border: solid lightgray 1px;
 }
 
 .community {
     display:grid;
     grid-template-columns:  1fr 1fr;
-    text-decoration: underline gray;
+    text-decoration: underline;
+    text-decoration-color: gray;
+
 }
 
 .services {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    text-decoration: underline gray;
+    text-decoration: underline;
 }
 .disc-forums {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
-    text-decoration: underline grey;
+    text-decoration: underline;
 }
 
 .housing {
     display: grid;
     grid-template-columns: 1fr;
-    text-decoration: underline grey;
+    text-decoration: underline;
 }
 
 .for-sale {
     display:grid;
     grid-template-columns: 1fr 1fr;
+    text-dcoration: underline;
 }
 
 .left-col {
@@ -135,16 +142,20 @@ h3 {
 .jobs {
     display: grid;
     grid-template-columns: 1fr;
+    text-decoration: underline;
 }
 .gigs {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    text-decoration: underline;
 }
 
 
 .right-nav {
     color: blue;
     text-align: center;
+    border: solid lightgray 1px;
+    background: rgb(231, 230, 230);
 }
 .button {
     border: black solid 1 px;
